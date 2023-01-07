@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+display: flex;
+justify-content: center;
+flex-direction: column;
+line-height: 100%;
+padding-top: 100px;
+}
+
+.kotak{
+    width: 35%;
+    align-items: center;
+    padding: 30px;
+    margin: auto;
+    background-color: yellow;
+    color: black;
+    border-radius: 20px;
+    border: 5px solid #CCD6A6;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 40px;
+    margin-bottom: 28px;
+}
+
+label{
+    margin-left: -300px;
+    margin-bottom: 5px;
+}
+
+input{
+    width:90%;
+    height: 40px;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+}
+
+
+#tombol{
+    width: 90%;
+    margin-top: 8px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    font-weight: 800;
+    font-size: 15px;
+    background-color: #E8F3D6;
+}
+
+#tombol:hover{
+    background-color: #E64848;
+    color: #E8F3D6;
+    transition-duration:.4s;
+}
+
+img {
+transform: translate(320%);
+display: none;
+}
+
+p{
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 45px;
+}
